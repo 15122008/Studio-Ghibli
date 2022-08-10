@@ -1,0 +1,162 @@
+/* Nav font */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap');
+html {
+    scroll-behavior: smooth;
+  }
+body{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+    background-color:white;
+    user-select: none;
+    -webkit-user-select: none;
+}
+header{
+    z-index: 100;
+    padding-top: 0px;
+    width: 100%;
+    display: flex;
+    background-color: #DFD8C4;
+    position: fixed;
+    left: 0;
+	right: 0;
+	top: 0;
+    height: 69px;
+}
+.Nav-bar-div{
+    margin-top: 0px;
+    display: flex;
+}
+.Nav-bar-div img{
+    display: flex;
+    width: 202px;
+    transform: translateY(7px);
+}
+.Nav-bar-div nav{
+    margin-top: 0px;
+    display: flex;
+}
+.Nav-bar-div ul{
+    display: flex;
+}
+.Nav-bar-div nav ul li{
+    display: flex;
+}
+.Nav-bar-div nav ul li a{
+    display: flex;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    color: rgb(76, 68, 68);
+    transform: translateY(8px);
+    transition: all 0.2s;
+}
+.Nav-bar-div nav ul li a:hover{
+    color: #847A5F;
+}
+.Nav-bar-div nav ul li a:focus{
+    color: #847A5F;
+}
+#home-index{
+    margin-left: 165px;
+}
+#home-index::after{
+    content: "";
+    position: absolute;
+    background-color: #64593A;
+    height: 3.9px;
+    width: 0px;
+    left: -18px;
+    bottom: -9.5px;
+    transition: 0.3s;
+  } 
+ #home-index:hover::after{
+    width: 80px;
+  }
+  #movies-index::after{
+    content: "";
+    position: absolute;
+    background-color: #64593A;
+    height: 3.9px;
+    width: 0px;
+    left: -14px;
+    bottom: -9.5px;
+    transition: 0.3s;
+  } 
+ #movies-index:hover::after{
+    width: 80px;
+  }
+  #news-index::after{
+    content: "";
+    position: absolute;
+    background-color: #64593A;
+    height: 3.9px;
+    width: 0px;
+    left: -18px;
+    bottom: -9.5px;
+    transition: 0.3s;
+  } 
+ #news-index:hover::after{
+    width: 80px;
+  }
+  #about-index::after{
+    content: "";
+    position: absolute;
+    background-color: #64593A;
+    height: 3.9px;
+    width: 0px;
+    left: -14px;
+    bottom: -9.5px;
+    transition: 0.3s;
+  } 
+ #about-index:hover::after{
+    width: 80px;
+  }
+  #contact-index::after{
+    content: "";
+    position: absolute;
+    background-color: #64593A;
+    height: 3.9px;
+    width: 0px;
+    left: -12px;
+    bottom: -9.5px;
+    transition: 0.3s;
+  } 
+ #contact-index:hover::after{
+    width: 90px;
+  }
+#movies-index{
+    margin-left: 85px;
+}
+#news-index{
+    margin-left: 85px;
+}
+#about-index{
+    margin-left: 85px;
+}
+#contact-index{
+    margin-left: 85px;
+}
+#login-index{
+    margin-left: 318px;
+    font-weight: 401;
+    color: #64593A;
+    transition: all 0.4s;
+}
+#login-index:hover{
+    color: rgb(172, 156, 105);
+}
+#sign-up-index{
+    transform: translateY(-1px);
+     border: 2px solid #847A5F;
+    border-radius: 4.8px;
+    padding-top:8px;
+    padding-bottom: 28px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 30px;
+    transition: background-color 0.1s,color 0.3s;
+}
+#sign-up-index:hover{
+    background-color: #847A5F;
+    color: white;
+}

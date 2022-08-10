@@ -1,0 +1,191 @@
+/* general */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap');
+/* crd font */
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+html {
+    scroll-behavior: smooth;
+  }
+body{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+    background-color: #BFD8DF;
+    user-select: none;
+    -webkit-user-select: none;
+}
+.main-banner-credit{
+    border-bottom: 1.7px;
+    border-bottom-style: solid;
+    border-bottom-color: #797979;
+    width: 100%;
+    height: 250px;
+    background-color: #FDCFBC;
+}
+.fire_logo_dV{
+    display: inline-block;
+}
+.fire_logo_dV img{
+    display: inline-block;
+}
+#Fire-ph{
+    margin-top: 35px;
+    margin-left: 65px;
+    width: 180px;
+}
+#logo-no-ph{
+    width: 250px;
+    padding: 10px;
+    transform: translate(35px,-36.8px);
+    transition: all 0.5s;
+}
+#logo-no-ph:hover{
+    background-color: #ffbc9f;
+}
+.cross_ph_dV{
+    display: inline-block;
+    margin-left:160px;
+}
+.cross_ph_dV img{
+    width: 55px;
+    transform: translateY(-65px);
+}
+.crd_blue-toto_dV{
+    display: inline-block;
+    margin-left:100px;
+}
+.crd_blue-toto_dV p{
+    transform: translateY(-70px);
+    font-size: 50px;
+    font-family: 'Bungee', cursive;
+    letter-spacing: 2px;
+    display: inline-block;
+    transition: all 0.2s;
+}
+.crd_blue-toto_dV p:hover{
+    color: #666666;
+}
+.crd_blue-toto_dV a{
+    text-decoration: none;
+    color: #4B4B4B;
+}
+#B1-balls{
+    display: inline-block;
+    width: 180px;
+}
+#B2-balls{
+    margin-left:5px;
+    display: inline-block;
+    width: 130px;
+}
+.document-crd{
+    margin: 0 auto;
+    border: 1px solid #868686;
+    margin-top: 35px;
+    background-color: white;
+    width: 50%;
+    height: 975px;
+}
+.title-crd{
+    display: inline-block;
+}
+.title-crd img{
+    display: inline-block;
+    width: 150px;
+}
+.title-crd p{
+    color: #f3a051;
+    display: inline-block;
+    vertical-align: top;
+     font-family: 'Rubik', sans-serif;
+     font-size: 50px;
+     font-weight: 401;
+     letter-spacing: 4px;
+}
+.title-crd p::after{
+	content: "";
+    position: absolute;
+    background-color: #ffb46e;
+    height: 3.2px;
+    width: 465px;
+    left: 543px;
+    top: 402px;
+}
+.QA-container{
+    margin-top: 50px;
+}
+.CITA_defan{
+    font-family: 'Rubik', sans-serif;
+    font-size: 21px;
+    margin-left: 50px;
+}
+.Q-crd{
+    font-weight: 401;
+    font-size: 25px;
+    color: #222222;
+}
+.A-crd{
+    border-left: 4px solid gray;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+.web-logo-an_6{
+    margin-top: 50px;
+    border-bottom:1px solid  #484848;
+    border-top:1px solid  #484848;
+    padding-bottom: 15px;
+}
+#Gph{   
+    transform: translateY(2px);
+        width: 170px;
+}
+#Pph{
+	width: 100px;
+	margin-left: 75px;
+}
+#Fph{
+	width: 200px;
+	margin-left: 90px;
+	border-radius: 15px;
+}
+#Dph{
+	width: 225px;
+	margin-left: 90px;
+}
+#Aph{
+	width: 200px;
+	border-radius: 15px;
+	margin-left: 90px;
+}
+#Sph{
+	width: 110px;
+	border-radius: 15px;
+	margin-left: 90px;
+}
+#Give_crd_title{
+    margin-top: 35px;
+    margin-left: 20px;
+    width: 95%;
+    text-align: justify;
+    font-size: 21px;
+    font-family: 'Rubik', sans-serif;
+    padding-bottom: 10px;
+}
+.web-lists-div{
+    padding-bottom: 20px;
+}
+.web_links{
+    text-decoration: none;
+}
+.web_links ul{
+   margin-top: 50px;
+}
+.web_links li{
+    width: 25%;
+    color: #222222;
+    margin-top: 23px;
+    font-family: 'Rubik', sans-serif;
+    transition: all 1s;
+}
+.web_links li:hover{
+    text-decoration: underline;
+}

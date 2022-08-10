@@ -1,0 +1,76 @@
+/* Nav font */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap');
+html {
+    scroll-behavior: smooth;
+  }
+body{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+    background-color:white;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+header{
+    z-index: 100;
+    padding-top: 0px;
+    width: 100%;
+    display: flex;
+    background-color: transparent;
+    position: fixed;
+    left: 0;
+	right: 0;
+	top: 0;
+    height: 69px;
+    border-bottom: 1px solid #8A8C8C;
+}
+.Nav-bar-div{
+    margin-top: 0px;
+    display: flex;
+}
+.Nav-bar-div img{
+    display: flex;
+    width: 202px;
+    transform: translateY(7px);
+}
+.Nav-bar-div nav{
+    margin-top: 0px;
+    display: flex;
+}
+.Nav-bar-div ul{
+    display: flex;
+}
+.Nav-bar-div nav ul li{
+    display: flex;
+}
+.Nav-bar-div nav ul li a{
+    display: flex;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    color: rgb(76, 68, 68);
+    transform: translateY(8px);
+    transition: all 0.2s;
+}
+#terms_of_use{
+    margin-left: 165px;
+}
+#privacy_policy{
+    margin-left: 165px;
+}
+#privacy_policy::after{
+    content: "";
+    position: absolute;
+    background-color: #4B4B47;
+    height: 2.9px;
+    width: 145px;
+    left: -12px;
+    bottom: -9.5px;
+    transition: 0.3s;
+  } 
+  #FAQ{
+    margin-left: 165px;
+}
+#overflow-container{
+    overflow: scroll;
+}

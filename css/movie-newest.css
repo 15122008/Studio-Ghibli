@@ -1,0 +1,869 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap');
+#movies-index::after{
+    content: "";
+    position: absolute;
+    background-color: #64593A;
+    height: 3.9px;
+    width: 80px;
+    left: -14px;
+    bottom: -9.5px;
+    transition: 0.3s;
+  } 
+.bg-cover{
+    width:100%;
+    height: 76px;
+    background-color: white;
+}
+.search-bar-defult{
+    width: 480px;
+    height: 50px;
+    margin-left: 400px;
+    border: 2px solid #797171;
+    outline: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    padding-left: 20px;
+    color: #3f3f3f;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    transition: all 0.5s;
+}
+.search-bar-defult:focus{
+    border-color: #3f3f3f;
+}
+.search_bar_bg{
+    display: inline-block;
+    background-color: #484848;
+    width: 60px;
+    height: 55px;
+    transform: translate(-5px,21px);
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    cursor: pointer;
+}
+.search_bar{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    margin-left: -48px;
+    position: absolute;
+    margin-top: 44px;
+    cursor: pointer;
+
+}
+.three_blocks a{
+    text-decoration: none;
+}
+.default_p{
+    display: inline-block;
+    margin-left: 400px;
+    background-color: rgba(0, 0, 0, 0.040);
+    width: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: px;
+    margin-top: 25px;
+    color: #424242;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.164);
+}
+.Trending_p{
+    display: inline-block;
+    margin-left: 45px;
+    background-color: rgba(0, 0, 0, 0.040);
+    width: 160px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: px;
+    margin-top: 25px;
+    color: #424242;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+}
+.Newest_p{
+    display: inline-block;
+    margin-left: 50px;
+    background-color: rgba(0, 0, 0, 0.11);
+    width: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 25px;
+    color: #424242;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+}
+ /* first sequence */
+.first_sequence{
+    margin-top: 65px;
+}
+.first_sequence a{
+    text-decoration: none;
+}
+.movie_box1{
+    display: inline-block;
+    width: 250px;
+    height: 310px;
+    background-color: transparent;
+    border: 1.7px solid #727272;
+    margin-left: 100px;
+    border-radius: 5px;
+    transition: all 0.1s;
+}
+.movie_box1:hover{
+    box-shadow: 0 4px 16px rgba(55,73,87,.1),0 25px 50px rgba(55,73,87,.15);
+    transform: translateY(-2px);
+}
+.movie1_bg_container{
+    background-image: url(../image/earwig_and_the_witch_cover.jpg);
+    margin-left: 13px;
+    margin-top: 10px;
+    width: 225px;
+    height: 180px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.movie_box_title1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.watch_movie_button{
+    font-family: 'Rubik', sans-serif;
+    background-color: #2E2B2B;
+    color: white;
+    width: 160px;
+    text-align: center;
+    margin-left: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+    margin-top: 25px;
+    transition: all 0.5s;
+}
+.watch_movie_button:hover{
+    background-color: #2e2b2be9;
+}
+.movie_box2{
+    display: inline-block;
+    width: 250px;
+    height: 310px;
+    background-color: transparent;
+    border: 1.7px solid #727272;
+    margin-left: 100px;
+    border-radius: 5px;
+    transition: all 0.1s;
+}
+.movie_box2:hover{
+    box-shadow: 0 4px 16px rgba(55,73,87,.1),0 25px 50px rgba(55,73,87,.15);
+    transform: translateY(-2px);
+}
+.movie2_bg_container{
+    background-image: url(../image/when_marnie_was_there_cover.jpg);
+    margin-left: 13px;
+    margin-top: 10px;
+    width: 225px;
+    height: 180px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.movie_box_title2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.movie_box3{
+    display: inline-block;
+    width: 250px;
+    height: 310px;
+    background-color: transparent;
+    border: 1.7px solid #727272;
+    margin-left: 100px;
+    border-radius: 5px;
+    transition: all 0.1s;
+}
+.movie_box3:hover{
+    box-shadow: 0 4px 16px rgba(55,73,87,.1),0 25px 50px rgba(55,73,87,.15);
+    transform: translateY(-2px);
+}
+.movie3_bg_container{
+    background-image: url(../image/the_wind_rises_cover.jpg);
+    margin-left: 13px;
+    margin-top: 10px;
+    width: 225px;
+    height: 180px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.movie_box_title3{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.movie_box4{
+    display: inline-block;
+    width: 250px;
+    height: 310px;
+    background-color: transparent;
+    border: 1.7px solid #727272;
+    margin-left: 100px;
+    border-radius: 5px;
+    transition: all 0.1s;
+}
+.movie_box4:hover{
+    box-shadow: 0 4px 16px rgba(55,73,87,.1),0 25px 50px rgba(55,73,87,.15);
+    transform: translateY(-2px);
+}
+.movie4_bg_container{
+    background-image: url(../image/the_tale_of_the_princess_kaguya_cover.jpg);
+    margin-left: 13px;
+    margin-top: 10px;
+    width: 225px;
+    height: 180px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.movie_box_title4{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    transform: translateY(-10px);
+}
+/* Second sequence CC */
+.second_sequence{
+    margin-top: 50px;
+}
+.second_sequence a{
+    text-decoration: none;
+}
+/* movie 5 box */
+.movie_box5{
+    display: inline-block;
+    width: 250px;
+    height: 310px;
+    background-color: transparent;
+    border: 1.7px solid #727272;
+    margin-left: 100px;
+    border-radius: 5px;
+    transition: all 0.1s;
+}
+.movie_box5:hover{
+    box-shadow: 0 4px 16px rgba(55,73,87,.1),0 25px 50px rgba(55,73,87,.15);
+    transform: translateY(-2px);
+}
+.movie5_bg_container{
+    background-image: url(../image/from_up_on_poppy_hill_cover.jpg);
+    margin-left: 13px;
+    margin-top: 10px;
+    width: 225px;
+    height: 180px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.movie_box_title5{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.special_button1{
+    margin-top: -17.5px;
+}
+/* movie 6 box */
+.movie_box6{
+    display: inline-block;
+    width: 250px;
+    height: 310px;
+    background-color: transparent;
+    border: 1.7px solid #727272;
+    margin-left: 100px;
+    border-radius: 5px;
+    transition: all 0.1s;
+}
+.movie_box6:hover{
+    box-shadow: 0 4px 16px rgba(55,73,87,.1),0 25px 50px rgba(55,73,87,.15);
+    transform: translateY(-2px);
+}
+.movie6_bg_container{
+    background-image: url(../image/the_secret_world_of_arrietty_cover.jpg);
+    margin-left: 13px;
+    margin-top: 10px;
+    width: 225px;
+    height: 180px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.movie_box_title6{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    transform: translateY(-10px);
+}
+/* movie 7 box */
+.movie_box7{
+    display: inline-block;
+    width: 250px;
+    height: 310px;
+    background-color: transparent;
+    border: 1.7px solid #727272;
+    margin-left: 100px;
+    border-radius: 5px;
+    transition: all 0.1s;
+}
+.movie_box7:hover{
+    box-shadow: 0 4px 16px rgba(55,73,87,.1),0 25px 50px rgba(55,73,87,.15);
+    transform: translateY(-2px);
+}
+.movie7_bg_container{
+    background-image: url(../image/ponyo_cover.jpg);
+    margin-left: 13px;
+    margin-top: 10px;
+    width: 225px;
+    height: 180px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.movie_box_title7{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+/* movie 8 box */
+.movie_box8{
+    display: inline-block;
+    width: 250px;
+    height: 310px;
+    background-color: transparent;
+    border: 1.7px solid #727272;
+    margin-left: 100px;
+    border-radius: 5px;
+    transition: all 0.1s;
+}
+.movie_box8:hover{
+    box-shadow: 0 4px 16px rgba(55,73,87,.1),0 25px 50px rgba(55,73,87,.15);
+    transform: translateY(-2px);
+}
+.movie8_bg_container{
+    background-image: url(../image/tales_from_earthsea_cover.jpg);
+    margin-left: 13px;
+    margin-top: 10px;
+    width: 225px;
+    height: 180px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.movie_box_title8{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+/* third sequence CC */
+.third_sequence{
+    margin-top: 50px;
+}
+.third_sequence a{
+    text-decoration: none;
+}
+/* movie 9 box */
+.movie_box9{
+    display: inline-block;
+    width: 250px;
+    height: 310px;
+    background-color: transparent;
+    border: 1.7px solid #727272;
+    margin-left: 100px;
+    border-radius: 5px;
+    transition: all 0.1s;
+}
+.movie_box9:hover{
+    box-shadow: 0 4px 16px rgba(55,73,87,.1),0 25px 50px rgba(55,73,87,.15);
+    transform: translateY(-2px);
+}
+.movie9_bg_container{
+    background-image: url(../image/howls_moving_castle_cover.jpg);
+    margin-left: 13px;
+    margin-top: 10px;
+    width: 225px;
+    height: 180px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.movie_box_title9{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+/* movie 10 box */
+.movie_box10{
+    display: inline-block;
+    width: 250px;
+    height: 310px;
+    background-color: transparent;
+    border: 1.7px solid #727272;
+    margin-left: 100px;
+    border-radius: 5px;
+    transition: all 0.1s;
+}
+.movie_box10:hover{
+    box-shadow: 0 4px 16px rgba(55,73,87,.1),0 25px 50px rgba(55,73,87,.15);
+    transform: translateY(-2px);
+}
+.movie10_bg_container{
+    background-image: url(../image/the_cat_returns_cover.png);
+    margin-left: 13px;
+    margin-top: 10px;
+    width: 225px;
+    height: 180px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.movie_box_title10{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+/* movie 11 box */
+.movie_box11{
+    display: inline-block;
+    width: 250px;
+    height: 310px;
+    background-color: transparent;
+    border: 1.7px solid #727272;
+    margin-left: 100px;
+    border-radius: 5px;
+    transition: all 0.1s;
+}
+.movie_box11:hover{
+    box-shadow: 0 4px 16px rgba(55,73,87,.1),0 25px 50px rgba(55,73,87,.15);
+    transform: translateY(-2px);
+}
+.movie11_bg_container{
+    background-image: url(../image/spirited_away_cover.jpg);
+    margin-left: 13px;
+    margin-top: 10px;
+    width: 225px;
+    height: 180px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.movie_box_title11{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+/* movie 12 box */
+.movie_box12{
+    display: inline-block;
+    width: 250px;
+    height: 310px;
+    background-color: transparent;
+    border: 1.7px solid #727272;
+    margin-left: 100px;
+    border-radius: 5px;
+    transition: all 0.1s;
+}
+.movie_box12:hover{
+    box-shadow: 0 4px 16px rgba(55,73,87,.1),0 25px 50px rgba(55,73,87,.15);
+    transform: translateY(-2px);
+}
+.movie12_bg_container{
+    background-image: url(../image/my_neighbors_the_yamadas_cover.png);
+    margin-left: 13px;
+    margin-top: 10px;
+    width: 225px;
+    height: 180px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.movie_box_title12{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    transform: translateY(-8px);
+}
+/* fourth sequence CC */
+.fourth_sequence{
+    margin-top: 50px;
+}
+.fourth_sequence a{
+    text-decoration: none;
+}
+/* movie 13 box */
+.movie_box13{
+    display: inline-block;
+    width: 250px;
+    height: 310px;
+    background-color: transparent;
+    border: 1.7px solid #727272;
+    margin-left: 100px;
+    border-radius: 5px;
+    transition: all 0.1s;
+}
+.movie_box13:hover{
+    box-shadow: 0 4px 16px rgba(55,73,87,.1),0 25px 50px rgba(55,73,87,.15);
+    transform: translateY(-2px);
+}
+.movie13_bg_container{
+    background-image: url(../image/princess_monoke_cover.jpg);
+    margin-left: 13px;
+    margin-top: 10px;
+    width: 225px;
+    height: 180px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.movie_box_title13{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+/* movie 14 box */
+.movie_box14{
+    display: inline-block;
+    width: 250px;
+    height: 310px;
+    background-color: transparent;
+    border: 1.7px solid #727272;
+    margin-left: 100px;
+    border-radius: 5px;
+    transition: all 0.1s;
+}
+.movie_box14:hover{
+    box-shadow: 0 4px 16px rgba(55,73,87,.1),0 25px 50px rgba(55,73,87,.15);
+    transform: translateY(-2px);
+}
+.movie14_bg_container{
+    background-image: url(../image/whisper_of_heart_cover.jpg);
+    margin-left: 13px;
+    margin-top: 10px;
+    width: 225px;
+    height: 180px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.movie_box_title14{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+/* movie 15 box */
+.movie_box15{
+    display: inline-block;
+    width: 250px;
+    height: 310px;
+    background-color: transparent;
+    border: 1.7px solid #727272;
+    margin-left: 100px;
+    border-radius: 5px;
+    transition: all 0.1s;
+}
+.movie_box15:hover{
+    box-shadow: 0 4px 16px rgba(55,73,87,.1),0 25px 50px rgba(55,73,87,.15);
+    transform: translateY(-2px);
+}
+.movie15_bg_container{
+    background-image: url(../image/pom_poko_cover.jpg);
+    margin-left: 13px;
+    margin-top: 10px;
+    width: 225px;
+    height: 180px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.movie_box_title15{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+/* movie 16 box */
+.movie_box16{
+    display: inline-block;
+    width: 250px;
+    height: 310px;
+    background-color: transparent;
+    border: 1.7px solid #727272;
+    margin-left: 100px;
+    border-radius: 5px;
+    transition: all 0.1s;
+}
+.movie_box16:hover{
+    box-shadow: 0 4px 16px rgba(55,73,87,.1),0 25px 50px rgba(55,73,87,.15);
+    transform: translateY(-2px);
+}
+.movie16_bg_container{
+    background-image: url(../image/porco_rosso_cover.jpg);
+    margin-left: 13px;
+    margin-top: 10px;
+    width: 225px;
+    height: 180px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.movie_box_title16{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+/* fifth sequence CC */
+.fifth_sequence{
+    margin-top: 50px;
+}
+.fifth_sequence a{
+    text-decoration: none;
+}
+/* movie 17 box */
+.movie_box17{
+    display: inline-block;
+    width: 250px;
+    height: 310px;
+    background-color: transparent;
+    border: 1.7px solid #727272;
+    margin-left: 100px;
+    border-radius: 5px;
+    transition: all 0.1s;
+}
+.movie_box17:hover{
+    box-shadow: 0 4px 16px rgba(55,73,87,.1),0 25px 50px rgba(55,73,87,.15);
+    transform: translateY(-2px);
+}
+.movie17_bg_container{
+    background-image: url(../image/only_yesterday_cover.jpg);
+    margin-left: 13px;
+    margin-top: 10px;
+    width: 225px;
+    height: 180px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.movie_box_title17{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.special_button2{
+    margin-top: -17.5px;
+}
+/* movie 18 box */
+.movie_box18{
+    display: inline-block;
+    width: 250px;
+    height: 310px;
+    background-color: transparent;
+    border: 1.7px solid #727272;
+    margin-left: 100px;
+    border-radius: 5px;
+    transition: all 0.1s;
+}
+.movie_box18:hover{
+    box-shadow: 0 4px 16px rgba(55,73,87,.1),0 25px 50px rgba(55,73,87,.15);
+    transform: translateY(-2px);
+}
+.movie18_bg_container{
+    background-image: url(../image/kiki_delelivery_service_cover.jpg);
+    margin-left: 13px;
+    margin-top: 10px;
+    width: 225px;
+    height: 180px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.movie_box_title18{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+/* movie 19 box */
+.movie_box19{
+    display: inline-block;
+    width: 250px;
+    height: 310px;
+    background-color: transparent;
+    border: 1.7px solid #727272;
+    margin-left: 100px;
+    border-radius: 5px;
+    transition: all 0.1s;
+}
+.movie_box19:hover{
+    box-shadow: 0 4px 16px rgba(55,73,87,.1),0 25px 50px rgba(55,73,87,.15);
+    transform: translateY(-2px);
+}
+.movie19_bg_container{
+    background-image: url(../image/my_neighbour_totoro_cover.jpg);
+    margin-left: 13px;
+    margin-top: 10px;
+    width: 225px;
+    height: 180px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.movie_box_title19{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+/* movie 20 box */
+.movie_box20{
+    display: inline-block;
+    width: 250px;
+    height: 310px;
+    background-color: transparent;
+    border: 1.7px solid #727272;
+    margin-left: 100px;
+    border-radius: 5px;
+    transition: all 0.1s;
+}
+.movie_box20:hover{
+    box-shadow: 0 4px 16px rgba(55,73,87,.1),0 25px 50px rgba(55,73,87,.15);
+    transform: translateY(-2px);
+}
+.movie20_bg_container{
+    background-image: url(../image/grave_of_the_fireflies_cover.jpg);
+    margin-left: 13px;
+    margin-top: 10px;
+    width: 225px;
+    height: 180px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.movie_box_title20{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+/* sixth sequence CC */
+.sixth_sequence{
+    margin-top: 50px;
+}
+.sixth_sequence a{
+    text-decoration: none;
+}
+/* movie 21 box */
+.movie_box21{
+    display: inline-block;
+    width: 250px;
+    height: 310px;
+    background-color: transparent;
+    border: 1.7px solid #727272;
+    margin-left: 100px;
+    border-radius: 5px;
+    transition: all 0.1s;
+}
+.movie_box21:hover{
+    box-shadow: 0 4px 16px rgba(55,73,87,.1),0 25px 50px rgba(55,73,87,.15);
+    transform: translateY(-2px);
+}
+.movie21_bg_container{
+    background-image: url(../image/castle_in_the_sky_cover.jpg);
+    margin-left: 13px;
+    margin-top: 10px;
+    width: 225px;
+    height: 180px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.movie_box_title21{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+/* movie 22 box */
+.movie_box22{
+    display: inline-block;
+    width: 250px;
+    height: 310px;
+    background-color: transparent;
+    border: 1.7px solid #727272;
+    margin-left: 100px;
+    border-radius: 5px;
+    transition: all 0.1s;
+}
+.movie_box22:hover{
+    box-shadow: 0 4px 16px rgba(55,73,87,.1),0 25px 50px rgba(55,73,87,.15);
+    transform: translateY(-2px);
+}
+.movie22_bg_container{
+    background-image: url(../image/nausicaä_of_the_valley_of_the_wind_cover.jpeg);
+    margin-left: 13px;
+    margin-top: 10px;
+    width: 225px;
+    height: 180px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.movie_box_title22{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    transform: translateY(-10px);
+}

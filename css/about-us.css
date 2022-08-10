@@ -1,0 +1,287 @@
+#about-index::after{
+    content: "";
+    position: absolute;
+    background-color: #64593A;
+    height: 3.9px;
+    width: 80px;
+    left: -14px;
+    bottom: -9.5px;
+    transition: 0.3s;
+  } 
+/* Main about us banner */
+.about-us-main-banner-WAW{
+    margin-top: 65px;
+    width: 100%;
+    height: 350px;
+    background-color: whitesmoke;
+}
+#first-div-main-banner{
+    width: 100%;
+    height: 200px;
+    background-color: #99A799;
+}
+#second-div-main-banner{
+    width: 100%;
+    height: 190px;
+    background-color:#F2DDC1;
+}
+.about-us-main-ph1{
+    position: absolute;
+    top: 121px;
+    left: -43px;
+    width: 435px;
+}
+.about-us-main-ph2{
+    position: absolute;
+    top: 55px;
+    left: 1250px;
+    width: 275px;
+}
+.main-title-intro1,.main-title-intro2{
+    display: inline-block;
+    font-family: 'Rubik', sans-serif;
+    font-size: 110px;
+    font-weight: 501;
+    position: absolute;
+    top: 51.5px;
+    left: 420px;
+    text-transform: capitalize;
+}
+.main-title-intro1{
+    color: #FDCFBC;
+}
+.main-title-intro2{
+    color: #282727;
+    position: absolute;
+    margin-left: 280px;
+    
+}
+.main-title-intro3{
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 4.5px;
+    font-size: 25px;
+    color: #373737;
+    position: absolute;
+    top: 300px;
+    left: 160px;
+    margin-left: 235px;
+    font-weight: 401;
+    
+}
+/* founder profile */
+.founder_and_text_container{
+    display: inline-block;
+    width: 100%;
+    height: 460px;
+    background-color: rgba(255, 234, 172, 0.66);
+    transform: translateY(40px);
+    border-top: 1px solid #898989;
+    border-bottom: 1px solid #898989;
+}
+.the-founder-of-studio-Ghibli-ph{
+    transform: translateY(-30px);
+    display: inline-block;
+}
+.Our_history_title{
+    font-family: 'Rubik', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 701;
+    letter-spacing: 10px;
+    color: #705a36;
+    transform: translateY(-20px);
+}
+.the-founder-of-studio-Ghibli-ph a{
+    text-decoration: none;
+}
+.the-founder-of-studio-Ghibli-ph p{
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    background-color: #2827277d;
+    transition: all 0.5s;
+    opacity: 0;
+    
+}
+.the-founder-of-studio-Ghibli-ph p:hover{
+    opacity: 1;
+}
+.image-of-the-founder1{
+    display: inline-block;
+    margin-left: 30px;
+    width: 225px;
+    height: 250px;
+    background-image: url(../image/isao-takahata-profile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #000000;
+}
+.image-of-the-founder2{
+    display: inline-block;
+    width: 225px;
+    height: 250px;
+    background-image: url(../image/toshio_suzuki_profile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 30px;
+    border: 1px solid #000000;
+}
+.image-of-the-founder3{
+    display: inline-block;
+    width: 225px;
+    height: 250px;
+    background-image: url(../image/Hayao-Miyazaki-profile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 30px;
+    border: 1px solid #000000;
+}
+/* content */
+.text-about-the-founder{
+    display: inline-block;
+    margin-top: -225px;
+}
+.intro-paragraph{
+    width: 46%;
+    display: inline-block;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 800px;
+    text-align: justify;
+    line-height: 1.8;
+    font-weight: 401;
+    font-size: 20px;
+    color: rgb(63, 63, 63);
+    transform: translateY(-90px);
+}
+.intro-paragraph a{
+    text-decoration: none;
+    color: rgb(69, 106, 109);
+}
+.intro-paragraph a:hover{
+    text-decoration: underline;
+}
+/* developer profiles */
+.developers-container{
+    margin-top: -78px;
+    width: 100%;
+    height: 550px;
+    background-color: #ffd9a8;
+}
+.developer-title{
+    font-family: 'Rubik', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 701;
+    letter-spacing: 10px;
+    color: #4B4B47;
+    padding-top: 30px;
+   }
+   .developers-profile div{
+    display: inline-block;
+   }
+.profile-one-bg{
+    margin-left: 240px;
+    background-color: #fffebd;
+    width: 245px;
+    height: 325px;
+    border: 1px solid #898989;
+}
+.profile-two-bg{
+    margin-left: 120px;
+    background-color: #c5edf4;
+    width: 255px;
+    height: 325px;
+    border: 1px solid #898989;
+}
+.profile-three-bg{
+    margin-left: 120px;
+    background-color: #ffe5da;
+    width: 245px;
+    height: 325px;
+    border: 1px solid #898989;
+}
+.profile-ph1{
+    margin-left: 15px;
+    width: 200px;
+    height: 200px;
+    background-image: url(../image/thuta-profile.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.profile-ph2{
+    margin-left: 25px;
+    width: 198px;
+    height: 198px;
+    background-image: url(../image/hsuhsu-profile.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.profile-ph3{
+    margin-left: 15px;
+    width: 195px;
+    height: 195px;
+    background-image: url(../image/hsumyat-profile.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.profile-titles1{
+    width: 245px;
+    height: 120px;
+    background-color: white;
+    border-top: 1px solid #898989;
+}
+.profile-titles2{
+    width: 255px;
+    height: 122px;
+    background-color: white;
+    border-top: 1px solid #898989;
+}
+.profile-titles3{
+    width: 245px;
+    height: 124px;
+    background-color: white;
+    border-top: 1px solid #898989;
+}
+.intro_name1{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-weight: 401;
+    font-size: 22px;
+    color: #000000e1;
+}
+.intro_name2{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-weight: 401;
+    font-size: 22px;
+    color: #000000e1;
+}
+.intro_name3{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-weight: 401;
+    font-size: 22px;
+    color: #000000e1;
+}
+.role_one{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    color: #000000e9;
+}
+.role_two{
+    font-family: 'Rubik', sans-serif;
+    color: #000000e9;
+    margin-left: 5px;
+}
+.role_three{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    color: #000000e9;
+}
